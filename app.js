@@ -1,8 +1,8 @@
-// 导入 Express.js const express = require ( 'express' );
+// 导入 Express.js 
+const express = require ( 'express' );
 
-
-// 创建一个 Express 应用const app = express ();
-
+// 创建一个 Express 应用const 
+app = express ();
 
 // 用于解析 JSON 主体的中间件
 app . use ( express . json ());
